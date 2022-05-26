@@ -8,3 +8,7 @@
 
 [context.deploy-preview]
   command = "yarn build:preview"
+
+[[edge_functions]]
+path = "/test"
+function = "hello"
