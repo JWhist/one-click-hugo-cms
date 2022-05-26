@@ -1,4 +1,4 @@
 export default (req) => {
-  console.log(req.json());
-  return req.json();
+  console.log(req.host);
+  return new Response("Hello");
 };
